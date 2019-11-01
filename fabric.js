@@ -3,8 +3,8 @@ var canvas = new fabric.Canvas("my-canvas", {
   width: 400,
   height: 400
 });
-fabric.RectangleTriangle = fabric.util.createClass(fabric.Rect, {
-  type: 'rectangleTriangle',
+fabric.Rectangle = fabric.util.createClass(fabric.Rect, {
+  type: 'rectangle',
   _render: function(ctx) {
     var w = this.width,
       h = this.height,
@@ -19,8 +19,8 @@ fabric.RectangleTriangle = fabric.util.createClass(fabric.Rect, {
     this._renderPaintInOrder(ctx);
   }
 });
-fabric.RectangleTriangle.fromObject = function(object, callback) {
-  return fabric.Object._fromObject('RectangleTriangle', object, callback);
+fabric.Rectangle.fromObject = function(object, callback) {
+  return fabric.Object._fromObject('Rectangle', object, callback);
 };
 var rect, isDown, origX, origY;
 
