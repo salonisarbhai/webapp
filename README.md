@@ -6,4 +6,4 @@ Signup.css: styling the signup page.
 newtask.html: This would download the zip from the server which consists of the json and the images and will go to the new task where the image of the cheque will be uploaded
 task.js: This will help in loading the Json contents on the webpage.
 demo1.html: On this the image is getting uploaded and the js file is called where we have written the code for drawing bounding boxes in canvas in javacript.
-fabric.js: we have written the code for drawing the bounding boxes using canvas in javascript.
+fabric.js: we have written the code for drawing the bounding boxes in javascript.
